@@ -1,0 +1,5 @@
+salt-formula-logrotate (2017.3) trusty; urgency=medium
+
+  * Initial release
+
+ -- Filip Pytloun <filip@pytloun.cz>  Mon, 27 Mar 2017 19:11:05 +0200

@@ -1,0 +1,15 @@
+Source: salt-formula-openldap
+Maintainer: Salt Formulas Community <salt-formulas@freelists.org>
+Section: admin
+Priority: optional
+Build-Depends: salt-master, python, python-yaml, debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: https://github.com/salt-formulas
+Vcs-Browser: https://github.com/salt-formulas/salt-formula-openldap
+Vcs-Git: https://github.com/salt-formulas/salt-formula-openldap.git
+
+Package: salt-formula-openldap
+Architecture: all
+Depends: ${misc:Depends}, salt-master, reclass
+Description: openldap Salt formula
+ Install and configure openldap server and client

@@ -1,0 +1,3 @@
+openldap:
+  client:
+    enabled: true

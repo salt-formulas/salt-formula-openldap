@@ -1,0 +1,3 @@
+name: "openldap"
+version: "2017.3"
+source: "https://github.com/tcpcloud/salt-formula-openldap"

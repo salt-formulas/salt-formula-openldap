@@ -1,0 +1,6 @@
+applications:
+  - openldap
+parameters:
+  openldap:
+    client:
+      enabled: true

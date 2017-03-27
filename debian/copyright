@@ -1,0 +1,15 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: salt-formula-openldap
+Upstream-Contact: Filip Pytloun <filip@pytloun.cz>
+Source: https://github.com/salt-formulas/salt-formula-openldap
+
+Files: *
+Copyright: 2014-2017 Mirantis Inc. et al.
+License: Apache-2.0
+  Copyright (C) 2014-2017 Mirantis Inc. et al.
+  .
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  .
+  On a Debian system you can find a copy of this license in
+  /usr/share/common-licenses/Apache-2.0.
