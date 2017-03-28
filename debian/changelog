@@ -1,4 +1,4 @@
-salt-formula-logrotate (2017.3) trusty; urgency=medium
+salt-formula-openldap (2017.3) trusty; urgency=medium
 
   * Initial release
 
