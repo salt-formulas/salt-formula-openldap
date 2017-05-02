@@ -6,11 +6,6 @@ openldap_packages:
   pkg.installed:
     - names: {{ client.pkgs }}
 
-/etc/salt/minion.d/_ldap.conf:
-  file.managed:
-  - source: salt://openldap/files/_ldap.conf
-  - template: jinja
-
 {%- if client.entry is defined %}
 
 {%- macro process_entry(entry, tree) %}
