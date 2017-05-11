@@ -1,5 +1,5 @@
 minion:
-  {%- if pillar.openldap.client is defined %}
+  {%- if pillar.get('openldap', {}).get('client') %}
   {%- from "openldap/map.jinja" import client with context -%}
   {%- if client.server is defined %}
   ldap:
