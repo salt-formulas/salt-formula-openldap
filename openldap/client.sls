@@ -52,6 +52,9 @@ openldap_client_{{ dn }}:
       - ldap: openldap_client_{{ member }}{% if member.split(',')[-1].split('=')[0] != 'dc' %},{{ client.server.basedn }}{% endif %}
       {%- endfor %}
     {%- endif %}
+    {%- if grains.get('noservices', False) %}
+    - onlyif: 'false'
+    {%- endif %}
 
     {%- if param.entry is defined %}
 {{ process_entry(param.entry, param.get('type', 'cn') + "=" + name + "," + tree) }}
