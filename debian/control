@@ -10,6 +10,6 @@ Vcs-Git: https://github.com/salt-formulas/salt-formula-openldap.git
 
 Package: salt-formula-openldap
 Architecture: all
-Depends: ${misc:Depends}, salt-master, reclass
+Depends: ${misc:Depends}
 Description: openldap Salt formula
  Install and configure openldap server and client
